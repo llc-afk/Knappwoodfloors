@@ -1,297 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-
-  <meta charset="UTF-8" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Knapp Wood Floors</title>
-
-<link rel="icon" type="image/png" href="favicon.png">
-
-  <link rel="stylesheet" href="style.css" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Knapp Wood Floors provides careful floor installation, refinishing, carpet removal and deck repair.">
+  <meta name="theme-color" content="#182019">
+  <title>Knapp Wood Floors | Flooring that feels like home</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#services">Skip to services</a>
+  <div class="topbar"><div class="container topbar-inner"><span>Craftsmanship for every room</span><a href="sms:+19143965534">Text us: +1 (914) 396-5534</a></div></div>
 
-  <!-- HEADER -->
-
-  <header class="header">
-
+  <header class="header" id="top">
     <div class="container nav">
-
-      <h1 class="logo-text">
-        Knapp Wood Floors
-      </h1>
-
-      <nav>
-
-        <a href="#home">Home</a>
-
-        <a href="#services">Services</a>
-
-        <a href="#gallery">Gallery</a>
-
-        <a href="#contact">Contact</a>
-
+      <a class="brand" href="#home" aria-label="Knapp Wood Floors home"><span class="brand-mark">K</span><span>KNAPP <em>WOOD FLOORS</em></span></a>
+      <button class="menu-button" id="menu-button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="#services">Services</a><a href="#process">Our process</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Get an estimate <span>↗</span></a>
       </nav>
-
     </div>
-
   </header>
 
-  <!-- HERO -->
-
-  <section class="hero" id="home">
-
-    <div class="overlay"></div>
-
-    <div class="hero-content">
-
-      <span class="tag">
-        Hardwood Floors • Carpet Removal • Deck Repair
-      </span>
-
-      <h2>
-        Professional Flooring Services With Premium Results
-      </h2>
-
-      <p>
-        We specialize in hardwood flooring installation, refinishing,
-        carpet removal, deck repair and floor restoration with
-        professional craftsmanship and beautiful finishes.
-      </p>
-
-      <div class="hero-buttons">
-
-        <a
-          href="sms:+19143965534"
-          class="btn"
-        >
-          Text Message
-        </a>
-
-        <a
-          href="https://instagram.com/knappwoodfloors"
-          target="_blank"
-          class="btn-outline"
-        >
-          Instagram
-        </a>
-
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light">KNAPP WOOD FLOORS</p>
+        <h1>Floors built for <i>the way you live.</i></h1>
+        <p class="hero-copy">From restoring timeless hardwood to installing a fresh new floor, we bring thoughtful craftsmanship and a clean finish to every project.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#contact">Request an estimate <span>→</span></a><a class="button button-quiet" href="#gallery">See our work</a></div>
+        <div class="hero-points"><span>Hardwood installation</span><span>Refinishing</span><span>Carpet removal</span><span>Deck repair</span></div>
       </div>
+    </section>
 
-    </div>
-
-  </section>
-
-  <!-- SERVICES -->
-
-  <section class="services" id="services">
-
-    <div class="container">
-
-      <div class="section-title">
-
-        <span>
-          OUR SERVICES
-        </span>
-
-        <h2>
-          What We Do
-        </h2>
-
-      </div>
-
-      <div class="cards">
-
-        <!-- CARD 1 -->
-
-        <div class="card">
-
-          <img
-            src="https://i.ibb.co/hJWCdp7M/Screenshot-2026-05-19-19-01-44.png"
-            alt="Floor Installation"
-          >
-
-          <h3>
-            Floor Installation
-          </h3>
-
-          <p>
-            Professional hardwood, laminate and vinyl flooring
-            installation with elegant finishes.
-          </p>
-
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">WHAT WE DO</p><h2>Made to last.<br><i>Finished with care.</i></h2></div><p>Whether you are refreshing one room or reworking an entire home, we make the process straightforward and the final result feel right.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><img src="https://i.ibb.co/hJWCdp7M/Screenshot-2026-05-19-19-01-44.png" alt="Newly installed wood flooring"><div class="service-number">01</div><div class="service-content"><h3>Floor installation</h3><p>Hardwood, laminate and vinyl installation with precise preparation and clean details.</p><a href="#contact">Ask about installation <span>→</span></a></div></article>
+          <article class="service-card"><img src="https://cdn-fastly.hometalk.com/media/2021/04/21/7232354/how-to-remove-carpet-on-top-of-hardwood-floors.jpg?size=720x845&nocrop=1" alt="Hardwood floor revealed during carpet removal"><div class="service-number">02</div><div class="service-content"><h3>Carpet removal</h3><p>Careful removal and clean-up to reveal the potential beneath your existing carpet.</p><a href="#contact">Plan your update <span>→</span></a></div></article>
+          <article class="service-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTljB6-jf-XtJaXQ7RySgECbJJtV8cLUZHzZA&s" alt="Restored outdoor wood deck"><div class="service-number">03</div><div class="service-content"><h3>Deck repair</h3><p>Practical repairs and restoration that help your outdoor space look cared for again.</p><a href="#contact">Discuss your deck <span>→</span></a></div></article>
         </div>
-
-        <!-- CARD 2 -->
-
-        <div class="card">
-
-          <img
-            src="https://cdn-fastly.hometalk.com/media/2021/04/21/7232354/how-to-remove-carpet-on-top-of-hardwood-floors.jpg?size=720x845&nocrop=1"
-            alt="Carpet Removal"
-          >
-
-          <h3>
-            Carpet Removal
-          </h3>
-
-          <p>
-            Fast and professional carpet removal services to completely
-            transform your home or business.
-          </p>
-
-        </div>
-
-        <!-- CARD 3 -->
-
-        <div class="card">
-
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTljB6-jf-XtJaXQ7RySgECbJJtV8cLUZHzZA&s"
-            alt="Deck Repair"
-          >
-
-          <h3>
-            Deck Repair
-          </h3>
-
-          <p>
-            Professional outdoor deck repair and restoration with
-            durable and high quality results.
-          </p>
-
-        </div>
-
       </div>
+    </section>
 
-    </div>
+    <section class="process section" id="process"><div class="container process-layout"><div><p class="eyebrow">A SIMPLE PROCESS</p><h2>Clear steps.<br><i>Beautiful results.</i></h2><p class="process-intro">Good work starts with listening. We keep you informed from the first message through the final walkthrough.</p><a class="text-link" href="#contact">Start your project <span>→</span></a></div><ol class="steps"><li><span>01</span><div><h3>Tell us about your space</h3><p>Send a message with your project details, photos or questions.</p></div></li><li><span>02</span><div><h3>Get a clear plan</h3><p>We will discuss your needs and the best next step for your floors.</p></div></li><li><span>03</span><div><h3>Enjoy the transformation</h3><p>We focus on a careful finish that complements your home.</p></div></li></ol></div></section>
 
-  </section>
+    <section class="gallery section" id="gallery"><div class="container"><div class="gallery-heading"><div><p class="eyebrow">RECENT WORK</p><h2>Details you can <i>feel.</i></h2></div><p>Select any image to view it larger.</p></div><div class="gallery-grid" id="gallery-grid">
+      <button class="gallery-item tall" data-caption="Wood flooring detail"><img src="https://i.ibb.co/XfjdkTc9/Screenshot-2026-05-19-19-02-21.png" alt="Finished wood floor detail"><span>View project ↗</span></button>
+      <button class="gallery-item" data-caption="Fresh flooring installation"><img src="https://i.ibb.co/wFbMxNrX/Screenshot-2026-05-19-19-02-53.png" alt="Freshly installed flooring"><span>View project ↗</span></button>
+      <button class="gallery-item" data-caption="Refinished floor"><img src="https://i.ibb.co/MkNngtfn/Screenshot-2026-05-19-19-02-05.png" alt="Refinished wood floor"><span>View project ↗</span></button>
+      <button class="gallery-item wide" data-caption="A finished interior"><img src="https://i.ibb.co/00xDRp9/Screenshot-2026-05-19-19-01-58.png" alt="Interior with finished flooring"><span>View project ↗</span></button>
+      <button class="gallery-item" data-caption="Wood floor craftsmanship"><img src="https://i.ibb.co/35sfG273/Screenshot-2026-05-19-19-03-05.png" alt="Wood floor craftsmanship"><span>View project ↗</span></button>
+    </div></div></section>
 
-  <!-- GALLERY -->
+    <section class="contact section" id="contact"><div class="container contact-layout"><div class="contact-copy"><p class="eyebrow light">LET'S TALK FLOORS</p><h2>Ready to make your space <i>feel new?</i></h2><p>Tell us a little about what you have in mind. Your message will open directly in text messages, so you can continue the conversation right away.</p><div class="contact-direct"><span>Prefer to text directly?</span><a href="sms:+19143965534">+1 (914) 396-5534 <b>→</b></a></div><a class="instagram" href="https://instagram.com/knappwoodfloors" target="_blank" rel="noopener">Follow @knappwoodfloors <span>↗</span></a></div>
+      <form class="estimate-form" id="estimate-form"><h3>Request an estimate</h3><p>We will get back to you as soon as possible.</p><label>Full name<input id="name" name="name" autocomplete="name" required placeholder="Your name"></label><label>Phone number<input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="(000) 000-0000"></label><label>Service needed<select id="service" name="service"><option>Floor installation</option><option>Carpet removal</option><option>Deck repair</option><option>Refinishing / restoration</option><option>Not sure yet</option></select></label><label>Tell us about the project<textarea id="message" name="message" rows="4" required placeholder="Room, type of floor, timeline..."></textarea></label><button class="button button-primary" type="submit">Send text message <span>→</span></button><p class="form-note">No spam, no forms sent to a third party.</p></form>
+    </div></section>
+  </main>
 
-  <section class="gallery" id="gallery">
+  <footer class="footer"><div class="container footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark">K</span><span>KNAPP <em>WOOD FLOORS</em></span></a><p>Thoughtful flooring work, one home at a time.</p><div><a href="https://instagram.com/knappwoodfloors" target="_blank" rel="noopener">Instagram</a><a href="#top">Back to top ↑</a></div><small>© <span id="year"></span> Knapp Wood Floors. All rights reserved.</small></div></footer>
 
-    <div class="container">
-
-      <div class="section-title">
-
-        <span>
-          OUR WORK
-        </span>
-
-        <h2>
-          Flooring Gallery
-        </h2>
-
-      </div>
-
-      <div class="gallery-grid">
-
-        <img
-          src="https://i.ibb.co/XfjdkTc9/Screenshot-2026-05-19-19-02-21.png"
-          alt=""
-        >
-
-        <img
-          src="https://i.ibb.co/wFbMxNrX/Screenshot-2026-05-19-19-02-53.png"
-          alt=""
-        >
-
-        <img
-          src="https://i.ibb.co/MkNngtfn/Screenshot-2026-05-19-19-02-05.png"
-          alt=""
-        >
-
-        <img
-          src="https://i.ibb.co/00xDRp9/Screenshot-2026-05-19-19-01-58.png"
-          alt=""
-        >
-
-        <img
-          src="https://i.ibb.co/35sfG273/Screenshot-2026-05-19-19-03-05.png"
-          alt=""
-        >
-
-        <img
-          src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop"
-          alt=""
-        >
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- CONTACT -->
-
-  <section class="contact-big" id="contact">
-
-    <div class="container">
-
-      <span class="contact-tag">
-        CONTACT US
-      </span>
-
-      <h2>
-        Ready To Upgrade Your Floors?
-      </h2>
-
-      <p>
-        Contact Knapp Wood Floors for hardwood flooring installation,
-        carpet removal, deck repair and professional refinishing services.
-        We deliver premium quality, reliable work and long lasting results.
-      </p>
-
-      <div class="contact-buttons">
-
-        <a
-          href="sms:+19143965534"
-          class="btn-white"
-        >
-          +1 914 396-5534
-        </a>
-
-        <a
-          href="https://instagram.com/knappwoodfloors"
-          target="_blank"
-          class="btn-instagram"
-        >
-          @knappwoodfloors
-        </a>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- FOOTER -->
-
-  <footer class="footer">
-
-    <p>
-      © 2026 Knapp Wood Floors — All Rights Reserved
-    </p>
-
-    <p class="footer-number">
-      +1 914 396-5534
-    </p>
-
-    <a
-      href="https://instagram.com/knappwoodfloors"
-      target="_blank"
-    >
-      @knappwoodfloors
-    </a>
-
-  </footer>
-
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Gallery image"><button id="lightbox-close" aria-label="Close image">×</button><img id="lightbox-image" src="" alt=""><p id="lightbox-caption"></p></div>
+  <a class="text-float" href="sms:+19143965534" aria-label="Text Knapp Wood Floors">Text us <span>→</span></a>
+  <script src="script.js"></script>
 </body>
 </html>
